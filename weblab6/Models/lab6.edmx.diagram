@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d57aec38ff824c9789f2d7dd4ff2a602" Name="Diagram1">
+        <EntityTypeShape EntityType="lab6Model.tblBill" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblCustumer" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblDetailBill" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblProduct" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblStaff" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblStyle" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblSupplierProduct" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="lab6Model.tblUser" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="lab6Model.FK__tblBill__codeCus__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="lab6Model.FK__tblBill__IDStaff__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="lab6Model.FK__tblDetail__IDBil__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="lab6Model.FK__tblDetail__CodeP__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="lab6Model.FK__tblProduc__IDSty__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="lab6Model.FK__tblProduc__idSup__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
